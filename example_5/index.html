@@ -1,0 +1,32 @@
+<html>
+  <body>
+    <h2>1. hour to second</h2>
+    <div id="hour"></div>
+    <div id="time"></div>
+
+    <h2>2. Celcius to Fahrenheit</h2>
+    <div id="celcius"></div>
+    <div id="tempreture"></div>
+    <script>
+      // 1. hour to second
+      var hours = 10;
+      var second = hours * 3600;
+      console.log(second);
+      document.getElementById("hour").innerHTML = "hour :" + hours;
+      document.getElementById("time").innerHTML = "time : " + second;
+
+      // 2. Celcius to Fahrenheit
+      var celcius = 36;
+      var fahrenheit = celcius * (9 / 5) + 32;
+      console.log(fahrenheit);
+      document.getElementById("celcius").innerHTML = "celcius :" + celcius;
+      document.getElementById("tempreture").innerHTML =
+        "tempreture : " + fahrenheit;
+
+      // + - *
+      console.log(2 + 3 + 4);
+      console.log(10 - 1);
+      console.log(5 * 3);
+    </script>
+  </body>
+</html>
